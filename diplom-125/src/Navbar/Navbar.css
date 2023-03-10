@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&family=Roboto:wght@500&family=Unbounded:wght@300;400&display=swap');
+
+.educator-logo{
+    margin-right: 100px;
+}
+
+li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.overlay{
+    background-color:white;
+    color: #212121;
+    position: fixed;
+    height: 100vh;
+    width: 0;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    transition: all 0.5s cubic-bezier(1,.99,0,-0.01);
+    overflow-x: hidden;
+}
+
+/* .search input{
+    background-color: teal;
+    border: none;
+    color: #212121;
+    width: 100vh ;    
+    height: 10vh;
+    overflow-x: hidden;
+
+} */
+
+.aktiv{
+    width: 100%;
+  }
+
+  .nav-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items:center;
+}
+
+.nav-links a{
+    color: #212121;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2rem;
+    
+}
+
+.cross-icon {
+    position: absolute;
+    right: 70px;
+    top: 40px;
+    color: #212121;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+.nav-links a{
+    color: #212121;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    margin-bottom: 8px;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.close-icon{
+    cursor: pointer;
+}
+
+
+
+/* .search{
+background-color:;
+} */

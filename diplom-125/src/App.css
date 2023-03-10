@@ -1,0 +1,19 @@
+.wrapper { 
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  /* WRAPPER SECTION END*/
+  
+  @media(max-width:1404px){
+    .wrapper{
+      padding-left: 150px;
+      padding-right: 150px;
+    }
+  }
+  @media(max-width:900px){
+    .wrapper{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+
